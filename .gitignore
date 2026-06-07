@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Environment files
+.env
+venv/
+venvs/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+
+# Raw datasets
+datasets/raw/
+
+# Exploratory notebooks
+notebooks/exploratory/
+
+# Local SQL testing files
+sql/test_import.sql

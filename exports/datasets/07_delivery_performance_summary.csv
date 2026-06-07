@@ -1,0 +1,13 @@
+product_category,avg_delivery_days,fastest_delivery_days,slowest_delivery_days,total_orders
+"Indoor Sports",1.36,0,24,2955
+"Racket Sports",1.24,0,19,5045
+"Assorted Sports Articles",1.20,0,26,28714
+Outdoors,1.18,0,30,26986
+"Winter Sports",1.18,0,25,6518
+"Running - Jogging",1.10,0,22,10857
+"Swim Sports",1.07,0,20,5129
+"Children Sports",0.99,0,21,17309
+Shoes,0.96,0,24,25885
+Golf,0.95,0,26,8106
+Clothes,0.93,0,24,38953
+"Team Sports",0.93,0,25,8556
