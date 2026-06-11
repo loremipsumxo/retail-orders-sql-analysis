@@ -1,3 +1,48 @@
+### **Dataset Inventory**
+
+    rows  columns
+
+| orders.csv           | ? | ? |
+| -------------------- | - | - |
+| product-supplier.csv | ? | ? |
+
+**Key Validation**
+
+Is Product ID unique in product-supplier?
+
+Is Order ID unique in orders?
+
+Can every Product ID in orders
+be matched to product-supplier?
+
+Are there orphan records?
+
+**Data Quality**
+
+Null values?
+
+Duplicate rows?
+
+Inconsistent categories?
+
+Date issues?
+
+Negative values?
+
+Unexpected ranges?
+
+**Business Understanding**
+
+What represents revenue?
+
+How can profit be calculated?
+
+What is a customer segment?
+
+What defines a supplier?
+
+What defines delivery performance?
+
 ### Environment Validation
 
 - Jupyter kernel: datascience314 (Python 3.14.5)
@@ -8,11 +53,13 @@
 ### Dataset Structure Findings
 
 Orders Dataset
+
 - 185,013 rows
 - 9 columns
 - No missing values
 
 Products Dataset
+
 - 5,504 rows
 - 8 columns
 - No missing values
@@ -93,7 +140,6 @@ Product Line
     → Product Category
         → Product Group
             → Product Name
-
 
 ### Supplier Dimension Validation
 
